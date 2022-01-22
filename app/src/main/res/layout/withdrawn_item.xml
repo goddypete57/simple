@@ -9,6 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="30dp"
+        android:layout_margin="@dimen/_15sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -21,8 +22,9 @@
 
             <ImageView
                 android:id="@+id/imageButton"
-                android:layout_width="wrap_content"
-                android:layout_height="76dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="@dimen/_8sdp"
                 android:src="@drawable/withdrawal"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -33,9 +35,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:layout_marginStart="@dimen/_8sdp"
                 android:text="N204"
                 android:textColor="@color/black"
-                android:textSize="15dp"
+                android:textSize="@dimen/_15sdp"
                 app:layout_constraintStart_toEndOf="@+id/imageButton"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -45,8 +48,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
+                android:layout_marginStart="@dimen/_8sdp"
                 android:text="0.021 BTC"
-                android:textSize="15sp"
+                android:textSize="@dimen/_15sdp"
                 app:layout_constraintStart_toEndOf="@+id/imageButton"
                 app:layout_constraintTop_toBottomOf="@id/amount_Withdrawn_naira" />
 
@@ -59,7 +63,7 @@
                 android:layout_marginEnd="16dp"
                 android:text="Withdrawn"
                 android:textColor="#B70505"
-                android:textSize="15sp"
+                android:textSize="@dimen/_15sdp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -70,7 +74,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="16dp"
                 android:text="Aug 19,2019"
-                android:textSize="15sp"
+                android:textSize="@dimen/_15sdp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/Withdrawn" />
 

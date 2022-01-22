@@ -19,15 +19,22 @@
         <entry key="app/src/main/res/drawable/shape.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/styles.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/visible.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/withdraw.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/withdraw2.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/withdrawal.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.11574074074074074" />
-        <entry key="app/src/main/res/layout/fragment_transaction__details.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_wallet.xml" value="0.11" />
+        <entry key="app/src/main/res/layout/deposit_item.xml" value="0.2140625" />
+        <entry key="app/src/main/res/layout/fragment_all_transaction.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.20104166666666667" />
+        <entry key="app/src/main/res/layout/fragment_transaction__details.xml" value="0.12" />
+        <entry key="app/src/main/res/layout/fragment_wallet.xml" value="0.17" />
         <entry key="app/src/main/res/layout/fragment_withdraw__amount.xml" value="0.16" />
-        <entry key="app/src/main/res/layout/fragment_withdrawal__confirm.xml" value="0.2" />
-        <entry key="app/src/main/res/layout/fragment_withdrawal__scan__q_r__code.xml" value="0.2015625" />
+        <entry key="app/src/main/res/layout/fragment_withdrawal.xml" value="0.14" />
+        <entry key="app/src/main/res/layout/fragment_withdrawal__confirm.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/fragment_withdrawal__scan__q_r__code.xml" value="0.1" />
         <entry key="app/src/main/res/layout/transaction_content.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/wallet_item.xml" value="0.2140625" />
+        <entry key="app/src/main/res/layout/withdrawn_item.xml" value="0.22962962962962963" />
       </map>
     </option>
   </component>
