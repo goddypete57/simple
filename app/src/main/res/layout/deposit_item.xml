@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Dark"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
@@ -18,7 +19,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/sky_blue">
+            android:background="@color/Dark_Gray">
 
             <ImageView
                 android:id="@+id/imageButton_deposit"
@@ -37,7 +38,7 @@
                 android:layout_marginTop="16dp"
                 android:text="N204"
                 android:layout_marginStart="@dimen/_8sdp"
-                android:textColor="@color/black"
+                android:textColor="@color/Light_White"
                 android:textSize="@dimen/_15sdp"
                 app:layout_constraintStart_toEndOf="@+id/imageButton_deposit"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -49,6 +50,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:text="0.021 BTC"
+                android:textColor="@color/Light_Gray"
                 android:layout_marginStart="@dimen/_8sdp"
                 android:textSize="@dimen/_15sdp"
                 app:layout_constraintStart_toEndOf="@+id/imageButton_deposit"
@@ -62,7 +64,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="16dp"
                 android:text="Deposit"
-                android:textColor="#B70505"
+                android:textColor="@color/blue"
                 android:textSize="@dimen/_15sdp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -74,6 +76,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="16dp"
                 android:text="Aug 19,2019"
+                android:textColor="@color/Light_White"
                 android:textSize="@dimen/_15sdp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/Deposit" />
